@@ -61,7 +61,7 @@ a:hover{
     cursor: default;
 }
 
-/* HAMBURGER MANU */
+/* HAMBURGER MENU */
 #hamburger-nav{
     display: none;
 }
@@ -244,6 +244,7 @@ h1{
 }
 .about-pic{
     border-radius: 2rem;
+    margin-top: 12px;
 }
 .arrow{
     position: absolute;
@@ -290,7 +291,7 @@ position: relative;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 article {

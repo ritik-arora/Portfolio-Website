@@ -1,8 +1,62 @@
+@media screen and (max-width: 1400px){
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers{
+        flex-wrap: wrap;
+    }
+}
+
 @media screen and (max-width: 1200px){
     #desktop-nav{
         display: none;
     }
     #hamburger-nav{
         display: flex;
+    }
+    #experience, 
+    .experience-details-container{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    #profile,
+    .section-container{
+        display: block;
+        margin-bottom: 0;
+    }
+    .arrow{
+        display: none;
+    }
+    section, 
+    .section-container{
+        height: fit-content;
+    }
+    section{
+        margin: 0 5%;
+    }
+    .section__pic-container{
+        justify-content: center;
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about-containers{
+        margin-top: 0;
+    }
+    .details-container{
+        margin-top: 10px;
+        width: 250px;
+    }
+    .project-1{
+        margin-right: 0px;
+    }
+    .contact-info-upper-container{
+        /*width: 90%;
+        */display: block;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-evenly;
     }
 }
