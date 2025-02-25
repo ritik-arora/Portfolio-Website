@@ -59,4 +59,7 @@
         display: flex;
         justify-content: space-evenly;
     }
+    .footer-nav{
+        font-size: 1.15rem;
+    }
 }
